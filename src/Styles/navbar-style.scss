@@ -1,0 +1,22 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+}
+
+.navlinks{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navlinks li:hover{
+  color: rgb(255, 225, 225);
+  cursor: pointer;
+  text-decoration: underline;
+}

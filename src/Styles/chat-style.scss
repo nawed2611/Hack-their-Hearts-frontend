@@ -1,0 +1,36 @@
+.chat{
+  margin: 1rem;
+  padding: 1rem;
+}
+.chat-div{
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  background: white;
+  color: black;
+  min-height: 60vh;
+  width: 60%;
+}
+
+.chat-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  background: white;
+  color: black;
+  width: 40%;
+}
+
+.chat-form input{
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+.chat-form button{
+  width: 50%;
+}

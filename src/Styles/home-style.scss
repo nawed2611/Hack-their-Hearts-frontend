@@ -1,0 +1,47 @@
+.home{
+  display: flex;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60vh;
+}
+
+.login-div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  margin: 1rem;
+  width: 40%;
+}
+
+.login-div button{
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  background: rgb(90, 50, 50);
+  color: #ff6767;
+  border-radius: 6px;
+}
+
+.login-div button:hover{
+  color: rgb(255, 225, 225);
+  cursor: pointer;
+  background: rgb(114, 66, 66);
+}
+
+.home-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  width: 40%;
+}
